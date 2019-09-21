@@ -1,0 +1,4 @@
+label_filename: /home/jetbot/catkin_ws/src/ssd_ros/data/ssd_coco_labels.txt
+plan_filename: /home/jetbot/catkin_ws/src/ssd_ros/data/ssd_mobilenet_v1_coco.plan
+num_classes: 91
+visualize_threshold: 0.5

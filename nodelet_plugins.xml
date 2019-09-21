@@ -1,0 +1,7 @@
+<library path="lib/libssd_nodelet">
+  <class name="ssd_ros/ObjectDetectionWrapper" type="ObjectDetectionWrapper" base_class_type="nodelet::Nodelet">
+  <description>
+  ObjectDetectionWrapper
+  </description>
+  </class>
+</library>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="ros_object_detection_viewer" name="ssd_viewer" type="object_detection_viewer">
+    <remap from="/ssd_viewer/image_raw/compressed" to="/camera/color/image_raw/compressed"/>
+    <remap from="/ssd_viewer/inference" to="/ssd_infer/bounding_boxes"/>
+  </node>
+</launch>
